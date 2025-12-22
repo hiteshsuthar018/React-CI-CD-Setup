@@ -19,9 +19,8 @@ jobs:
               run: node --version
 
             - name: "Clone the repository"
-              uses: actions/checkout@
-              
-            - name: "Install Dependencies"
-              run: npm install
+              uses: actions/checkout@v2
 
+            - name: "Install Dependecies"
+              run: npm install
 
