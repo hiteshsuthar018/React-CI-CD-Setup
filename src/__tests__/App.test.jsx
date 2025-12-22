@@ -1,7 +1,8 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import App from '../App';
+import { expect, test } from 'vitest';
 
-// eslint-disable-next-line no-undef
+
 test('renders Vite + React text', () => {
   render(<App />);
   const headerElement = screen.getByText(/Vite \+ React/i);
